@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/object_detection/object_detection.egg-info
+writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ibz/uav_ws/build/object_detection/build
+creating /home/ibz/uav_ws/build/object_detection/build/lib
+creating /home/ibz/uav_ws/build/object_detection/build/lib/object_detection
+copying object_detection/__init__.py -> /home/ibz/uav_ws/build/object_detection/build/lib/object_detection
+copying object_detection/detection_node.py -> /home/ibz/uav_ws/build/object_detection/build/lib/object_detection
+running install
+running install_lib
+creating /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+copying /home/ibz/uav_ws/build/object_detection/build/lib/object_detection/__init__.py -> /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+copying /home/ibz/uav_ws/build/object_detection/build/lib/object_detection/detection_node.py -> /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+byte-compiling /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection/detection_node.py to detection_node.cpython-310.pyc
+running install_data
+creating /home/ibz/uav_ws/install/object_detection/share/ament_index
+creating /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index
+creating /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index/packages
+copying resource/object_detection -> /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/ibz/uav_ws/install/object_detection/share/object_detection
+creating /home/ibz/uav_ws/install/object_detection/share/object_detection/launch
+copying launch/detection_launch.py -> /home/ibz/uav_ws/install/object_detection/share/object_detection/launch
+running install_egg_info
+Copying ../../build/object_detection/object_detection.egg-info to /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.1-py3.10.egg-info
+running install_scripts
+Installing detection_node script to /home/ibz/uav_ws/install/object_detection/bin
+writing list of installed files to '/home/ibz/uav_ws/build/object_detection/install.log'

@@ -1,0 +1,21 @@
+[0.847s] Invoking command in '/home/ibz/uav_ws/src/object_tracking': PYTHONPATH=/home/ibz/uav_ws/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/ibz/uav_ws/build/object_tracking/build install --record /home/ibz/uav_ws/build/object_tracking/install.log --single-version-externally-managed install_data
+[1.071s] running egg_info
+[1.073s] writing ../../build/object_tracking/object_tracking.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../build/object_tracking/object_tracking.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/object_tracking/object_tracking.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../build/object_tracking/object_tracking.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/object_tracking/object_tracking.egg-info/top_level.txt
+[1.076s] reading manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+[1.077s] writing manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+[1.077s] running build
+[1.077s] running build_py
+[1.077s] running install
+[1.078s] running install_lib
+[1.079s] running install_data
+[1.079s] running install_egg_info
+[1.082s] removing '/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages/object_tracking-0.0.1-py3.10.egg-info' (and everything under it)
+[1.082s] Copying ../../build/object_tracking/object_tracking.egg-info to /home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages/object_tracking-0.0.1-py3.10.egg-info
+[1.083s] running install_scripts
+[1.111s] Installing tracking_node script to /home/ibz/uav_ws/install/object_tracking/bin
+[1.111s] writing list of installed files to '/home/ibz/uav_ws/build/object_tracking/install.log'
+[1.137s] Invoked command in '/home/ibz/uav_ws/src/object_tracking' returned '0': PYTHONPATH=/home/ibz/uav_ws/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/ibz/uav_ws/build/object_tracking/build install --record /home/ibz/uav_ws/build/object_tracking/install.log --single-version-externally-managed install_data

@@ -1,0 +1,398 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70e09f1675b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70e09f167190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70e09f167190>>, mixin_verb=('build',))
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ibz/uav_ws'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracking) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_tracking' with type 'ros.ament_python' and name 'object_tracking'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulation) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_simulation' with type 'ros.ament_python' and name 'uav_simulation'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibz/uav_ws/build/object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibz/uav_ws/install/object_detection', 'merge_install': False, 'path': '/home/ibz/uav_ws/src/object_detection', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'object_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'object_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibz/uav_ws/build/object_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibz/uav_ws/install/object_tracking', 'merge_install': False, 'path': '/home/ibz/uav_ws/src/object_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibz/uav_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibz/uav_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/ibz/uav_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibz/uav_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibz/uav_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/ibz/uav_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'uav_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'uav_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibz/uav_ws/build/uav_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibz/uav_ws/install/uav_simulation', 'merge_install': False, 'path': '/home/ibz/uav_ws/src/uav_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.274s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibz/uav_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibz/uav_ws/src/px4_msgs'
+[0.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ibz/uav_ws/src/object_detection' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/ament_prefix_path.dsv'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/ament_prefix_path.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ibz/uav_ws/src/object_tracking' with build type 'ament_python'
+[0.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracking', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/ament_prefix_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/ament_prefix_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/ament_prefix_path.sh'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ibz/uav_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ibz/uav_ws/install/px4_msgs
+[0.516s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ibz/uav_ws/src/object_detection'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.725s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ibz/uav_ws/src/object_tracking'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/src/object_detection': PYTHONPATH=/home/ibz/uav_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ibz/uav_ws/build/object_detection/build install --record /home/ibz/uav_ws/build/object_detection/install.log --single-version-externally-managed install_data
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/src/object_tracking': PYTHONPATH=/home/ibz/uav_ws/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/ibz/uav_ws/build/object_tracking/build install --record /home/ibz/uav_ws/build/object_tracking/install.log --single-version-externally-managed install_data
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/src/object_detection' returned '0': PYTHONPATH=/home/ibz/uav_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ibz/uav_ws/build/object_detection/build install --record /home/ibz/uav_ws/build/object_detection/install.log --single-version-externally-managed install_data
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection' for CMake module files
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection' for CMake config files
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection/lib'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection/bin'
+[1.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'path')
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/path.ps1'
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/path.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/path.sh'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection/lib/pkgconfig/object_detection.pc'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages'
+[1.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath')
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonpath.ps1'
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonpath.dsv'
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonpath.sh'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_detection/bin'
+[1.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonscriptspath')
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonscriptspath.ps1'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonscriptspath.dsv'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_detection/share/object_detection/hook/pythonscriptspath.sh'
+[1.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection)
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_detection/share/object_detection/package.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/object_detection/share/object_detection/package.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_detection/share/object_detection/package.sh'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_detection/share/object_detection/package.bash'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_detection/share/object_detection/package.zsh'
+[1.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/object_detection/share/colcon-core/packages/object_detection)
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking' for CMake module files
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/src/object_tracking' returned '0': PYTHONPATH=/home/ibz/uav_ws/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/ibz/uav_ws/build/object_tracking/build install --record /home/ibz/uav_ws/build/object_tracking/install.log --single-version-externally-managed install_data
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking' for CMake config files
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking/lib'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking/bin'
+[1.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracking', 'path')
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/path.ps1'
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/path.dsv'
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/path.sh'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking/lib/pkgconfig/object_tracking.pc'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking/lib/python3.10/site-packages'
+[1.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracking', 'pythonpath')
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonpath.ps1'
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonpath.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonpath.sh'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/object_tracking/bin'
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracking', 'pythonscriptspath')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonscriptspath.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonscriptspath.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/hook/pythonscriptspath.sh'
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_tracking)
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/package.ps1'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/package.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/package.sh'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/package.bash'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/object_tracking/share/object_tracking/package.zsh'
+[1.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/object_tracking/share/colcon-core/packages/object_tracking)
+[3.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ibz/uav_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ibz/uav_ws/install/px4_msgs
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ibz/uav_ws/build/px4_msgs -- -j12 -l12
+[209.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ibz/uav_ws/build/px4_msgs -- -j12 -l12
+[209.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ibz/uav_ws/build/px4_msgs
+[209.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[209.836s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs' for CMake module files
+[209.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ibz/uav_ws/build/px4_msgs
+[209.837s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs' for CMake config files
+[209.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[209.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[209.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[209.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[209.845s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib'
+[209.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[209.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[209.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[209.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[209.846s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/bin'
+[209.846s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[209.847s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[209.847s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/bin'
+[209.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[209.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[209.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[209.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[209.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[209.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[209.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[209.850s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs' for CMake module files
+[209.851s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs' for CMake config files
+[209.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[209.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[209.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[209.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[209.859s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib'
+[209.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[209.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[209.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[209.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[209.860s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/bin'
+[209.860s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[209.860s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[209.861s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_msgs/bin'
+[209.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[209.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[209.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[209.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[209.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[209.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[209.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibz/uav_ws/src/px4_ros_com' with build type 'ament_cmake'
+[209.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibz/uav_ws/src/px4_ros_com'
+[209.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[209.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[209.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ibz/uav_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ibz/uav_ws/install/px4_ros_com
+[211.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ibz/uav_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ibz/uav_ws/install/px4_ros_com
+[211.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibz/uav_ws/build/px4_ros_com -- -j12 -l12
+[220.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ibz/uav_ws/build/px4_ros_com -- -j12 -l12
+[220.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibz/uav_ws/build/px4_ros_com
+[220.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[220.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ibz/uav_ws/build/px4_ros_com
+[220.120s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com' for CMake module files
+[220.121s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com' for CMake config files
+[220.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[220.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[220.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[220.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[220.122s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib'
+[220.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[220.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[220.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[220.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[220.123s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/bin'
+[220.123s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[220.123s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[220.123s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/bin'
+[220.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[220.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[220.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[220.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[220.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[220.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[220.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[220.126s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com' for CMake module files
+[220.126s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com' for CMake config files
+[220.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[220.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[220.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[220.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[220.128s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib'
+[220.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[220.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[220.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[220.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[220.129s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/bin'
+[220.129s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[220.129s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[220.129s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/px4_ros_com/bin'
+[220.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[220.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[220.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[220.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[220.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[220.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[220.131s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ibz/uav_ws/src/uav_simulation' with build type 'ament_python'
+[220.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_simulation', 'ament_prefix_path')
+[220.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/ament_prefix_path.ps1'
+[220.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/ament_prefix_path.dsv'
+[220.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/ament_prefix_path.sh'
+[220.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[220.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[220.357s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ibz/uav_ws/src/uav_simulation'
+[220.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[220.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[220.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibz/uav_ws/src/uav_simulation': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_ros_com/lib:/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/build/uav_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages:/home/ibz/uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_simulation build --build-base /home/ibz/uav_ws/build/uav_simulation/build install --record /home/ibz/uav_ws/build/uav_simulation/install.log --single-version-externally-managed install_data
+[220.834s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation' for CMake module files
+[220.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibz/uav_ws/src/uav_simulation' returned '0': AMENT_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_ros_com/lib:/home/ibz/uav_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorJoKCTQ/usr/lib/:/tmp/.mount_cursorJoKCTQ/usr/lib32/:/tmp/.mount_cursorJoKCTQ/usr/lib64/:/tmp/.mount_cursorJoKCTQ/lib/:/tmp/.mount_cursorJoKCTQ/lib/i386-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/x86_64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib/aarch64-linux-gnu/:/tmp/.mount_cursorJoKCTQ/lib32/:/tmp/.mount_cursorJoKCTQ/lib64/:/tmp/.mount_cursormEaCen/usr/lib/:/tmp/.mount_cursormEaCen/usr/lib32/:/tmp/.mount_cursormEaCen/usr/lib64/:/tmp/.mount_cursormEaCen/lib/:/tmp/.mount_cursormEaCen/lib/i386-linux-gnu/:/tmp/.mount_cursormEaCen/lib/x86_64-linux-gnu/:/tmp/.mount_cursormEaCen/lib/aarch64-linux-gnu/:/tmp/.mount_cursormEaCen/lib32/:/tmp/.mount_cursormEaCen/lib64/ PYTHONPATH=/home/ibz/uav_ws/build/uav_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages:/home/ibz/uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/ibz/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_simulation build --build-base /home/ibz/uav_ws/build/uav_simulation/build install --record /home/ibz/uav_ws/build/uav_simulation/install.log --single-version-externally-managed install_data
+[220.834s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation' for CMake config files
+[220.835s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation/lib'
+[220.835s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation/bin'
+[220.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_simulation', 'path')
+[220.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/path.ps1'
+[220.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/path.dsv'
+[220.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/path.sh'
+[220.836s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation/lib/pkgconfig/uav_simulation.pc'
+[220.836s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages'
+[220.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_simulation', 'pythonpath')
+[220.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonpath.ps1'
+[220.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonpath.dsv'
+[220.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonpath.sh'
+[220.837s] Level 1:colcon.colcon_core.environment:checking '/home/ibz/uav_ws/install/uav_simulation/bin'
+[220.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_simulation', 'pythonscriptspath')
+[220.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonscriptspath.ps1'
+[220.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonscriptspath.dsv'
+[220.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/hook/pythonscriptspath.sh'
+[220.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_simulation)
+[220.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/package.ps1'
+[220.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/package.dsv'
+[220.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/package.sh'
+[220.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/package.bash'
+[220.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/package.zsh'
+[220.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibz/uav_ws/install/uav_simulation/share/colcon-core/packages/uav_simulation)
+[220.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[220.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[220.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[220.840s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[220.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[220.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[220.844s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[220.851s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[220.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibz/uav_ws/install/local_setup.ps1'
+[220.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibz/uav_ws/install/_local_setup_util_ps1.py'
+[220.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibz/uav_ws/install/setup.ps1'
+[220.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibz/uav_ws/install/local_setup.sh'
+[220.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibz/uav_ws/install/_local_setup_util_sh.py'
+[220.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibz/uav_ws/install/setup.sh'
+[220.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibz/uav_ws/install/local_setup.bash'
+[220.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibz/uav_ws/install/setup.bash'
+[220.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibz/uav_ws/install/local_setup.zsh'
+[220.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibz/uav_ws/install/setup.zsh'

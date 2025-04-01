@@ -1,0 +1,3 @@
+[console_scripts]
+uav_control = uav_simulation.uav_control:main
+
