@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing uav_simulation.egg-info/PKG-INFO
+writing dependency_links to uav_simulation.egg-info/dependency_links.txt
+writing entry points to uav_simulation.egg-info/entry_points.txt
+writing requirements to uav_simulation.egg-info/requires.txt
+writing top-level names to uav_simulation.egg-info/top_level.txt
+reading manifest file 'uav_simulation.egg-info/SOURCES.txt'
+writing manifest file 'uav_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages/uav-simulation.egg-link (link to .)
+Installing uav_control script to /home/ibz/uav_ws/install/uav_simulation/bin
+
+Installed /home/ibz/uav_ws/build/uav_simulation
+running symlink_data
+symbolically linking /home/ibz/uav_ws/build/uav_simulation/launch/minimal_launch.py -> /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/launch

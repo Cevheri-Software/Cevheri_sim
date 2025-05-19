@@ -1,0 +1,29 @@
+[0.646s] Invoking command in '/home/ibz/uav_ws/build/uav_simulation': CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs:/home/ibz/uav_ws/install/microxrcedds_agent LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_ros_com/lib:/home/ibz/uav_ws/install/px4_msgs/lib:/home/ibz/uav_ws/install/microxrcedds_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorKPCUrT/usr/lib/:/tmp/.mount_cursorKPCUrT/usr/lib32/:/tmp/.mount_cursorKPCUrT/usr/lib64/:/tmp/.mount_cursorKPCUrT/lib/:/tmp/.mount_cursorKPCUrT/lib/i386-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib/x86_64-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib/aarch64-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib32/:/tmp/.mount_cursorKPCUrT/lib64/ PYTHONPATH=/home/ibz/uav_ws/build/uav_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ibz/uav_ws/build/uav_simulation/build --no-deps symlink_data
+[0.908s] running develop
+[1.100s] running egg_info
+[1.100s] creating uav_simulation.egg-info
+[1.100s] writing uav_simulation.egg-info/PKG-INFO
+[1.100s] writing dependency_links to uav_simulation.egg-info/dependency_links.txt
+[1.101s] writing entry points to uav_simulation.egg-info/entry_points.txt
+[1.101s] writing requirements to uav_simulation.egg-info/requires.txt
+[1.101s] writing top-level names to uav_simulation.egg-info/top_level.txt
+[1.101s] writing manifest file 'uav_simulation.egg-info/SOURCES.txt'
+[1.102s] reading manifest file 'uav_simulation.egg-info/SOURCES.txt'
+[1.103s] writing manifest file 'uav_simulation.egg-info/SOURCES.txt'
+[1.104s] running build_ext
+[1.104s] Creating /home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages/uav-simulation.egg-link (link to .)
+[1.104s] Installing uav_control script to /home/ibz/uav_ws/install/uav_simulation/bin
+[1.105s] 
+[1.105s] Installed /home/ibz/uav_ws/build/uav_simulation
+[1.105s] running symlink_data
+[1.105s] creating /home/ibz/uav_ws/install/uav_simulation/share/ament_index
+[1.105s] creating /home/ibz/uav_ws/install/uav_simulation/share/ament_index/resource_index
+[1.105s] creating /home/ibz/uav_ws/install/uav_simulation/share/ament_index/resource_index/packages
+[1.105s] symbolically linking /home/ibz/uav_ws/build/uav_simulation/resource/uav_simulation -> /home/ibz/uav_ws/install/uav_simulation/share/ament_index/resource_index/packages
+[1.105s] symbolically linking /home/ibz/uav_ws/build/uav_simulation/package.xml -> /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation
+[1.105s] creating /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/launch
+[1.105s] symbolically linking /home/ibz/uav_ws/build/uav_simulation/launch/complete_launch.py -> /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/launch
+[1.105s] symbolically linking /home/ibz/uav_ws/build/uav_simulation/launch/main_launch.py -> /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/launch
+[1.105s] creating /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/worlds
+[1.105s] symbolically linking /home/ibz/uav_ws/build/uav_simulation/worlds/uav_world.sdf -> /home/ibz/uav_ws/install/uav_simulation/share/uav_simulation/worlds
+[1.139s] Invoked command in '/home/ibz/uav_ws/build/uav_simulation' returned '0': CMAKE_PREFIX_PATH=/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs:/home/ibz/uav_ws/install/microxrcedds_agent LD_LIBRARY_PATH=/home/ibz/uav_ws/install/px4_ros_com/lib:/home/ibz/uav_ws/install/px4_msgs/lib:/home/ibz/uav_ws/install/microxrcedds_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorKPCUrT/usr/lib/:/tmp/.mount_cursorKPCUrT/usr/lib32/:/tmp/.mount_cursorKPCUrT/usr/lib64/:/tmp/.mount_cursorKPCUrT/lib/:/tmp/.mount_cursorKPCUrT/lib/i386-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib/x86_64-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib/aarch64-linux-gnu/:/tmp/.mount_cursorKPCUrT/lib32/:/tmp/.mount_cursorKPCUrT/lib64/ PYTHONPATH=/home/ibz/uav_ws/build/uav_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/uav_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ibz/uav_ws/build/uav_simulation/build --no-deps symlink_data

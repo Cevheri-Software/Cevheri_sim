@@ -1,0 +1,1 @@
+/home/ibz/uav_ws/src/object_detection/launch/detection_launch.py

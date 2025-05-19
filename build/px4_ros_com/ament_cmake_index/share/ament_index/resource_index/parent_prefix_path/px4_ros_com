@@ -1,1 +1,1 @@
-/home/ibz/uav_ws/install/px4_msgs:/opt/ros/humble
+/home/ibz/uav_ws/install/uav_simulation:/home/ibz/uav_ws/install/px4_ros_com:/home/ibz/uav_ws/install/px4_msgs:/home/ibz/uav_ws/install/object_tracking:/home/ibz/uav_ws/install/object_detection:/opt/ros/humble

@@ -1,0 +1,26 @@
+[0.960s] Invoking command in '/home/ibz/uav_ws/build/object_detection': PYTHONPATH=/home/ibz/uav_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ibz/uav_ws/build/object_detection/build --no-deps symlink_data
+[1.292s] running develop
+[1.511s] running egg_info
+[1.511s] creating object_detection.egg-info
+[1.511s] writing object_detection.egg-info/PKG-INFO
+[1.511s] writing dependency_links to object_detection.egg-info/dependency_links.txt
+[1.511s] writing entry points to object_detection.egg-info/entry_points.txt
+[1.511s] writing requirements to object_detection.egg-info/requires.txt
+[1.512s] writing top-level names to object_detection.egg-info/top_level.txt
+[1.512s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[1.513s] reading manifest file 'object_detection.egg-info/SOURCES.txt'
+[1.514s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[1.515s] running build_ext
+[1.516s] Creating /home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[1.517s] Installing detection_node script to /home/ibz/uav_ws/install/object_detection/bin
+[1.517s] 
+[1.517s] Installed /home/ibz/uav_ws/build/object_detection
+[1.517s] running symlink_data
+[1.518s] creating /home/ibz/uav_ws/install/object_detection/share/ament_index
+[1.518s] creating /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index
+[1.518s] creating /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index/packages
+[1.518s] symbolically linking /home/ibz/uav_ws/build/object_detection/resource/object_detection -> /home/ibz/uav_ws/install/object_detection/share/ament_index/resource_index/packages
+[1.518s] symbolically linking /home/ibz/uav_ws/build/object_detection/package.xml -> /home/ibz/uav_ws/install/object_detection/share/object_detection
+[1.518s] creating /home/ibz/uav_ws/install/object_detection/share/object_detection/launch
+[1.518s] symbolically linking /home/ibz/uav_ws/build/object_detection/launch/detection_launch.py -> /home/ibz/uav_ws/install/object_detection/share/object_detection/launch
+[1.562s] Invoked command in '/home/ibz/uav_ws/build/object_detection' returned '0': PYTHONPATH=/home/ibz/uav_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibz/uav_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ibz/uav_ws/build/object_detection/build --no-deps symlink_data

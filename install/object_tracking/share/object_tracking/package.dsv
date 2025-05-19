@@ -10,3 +10,6 @@ source;share/object_tracking/hook/pythonscriptspath.sh
 source;share/object_tracking/hook/ament_prefix_path.ps1
 source;share/object_tracking/hook/ament_prefix_path.dsv
 source;share/object_tracking/hook/ament_prefix_path.sh
+source;../../build/object_tracking/share/object_tracking/hook/pythonpath_develop.ps1
+source;../../build/object_tracking/share/object_tracking/hook/pythonpath_develop.dsv
+source;../../build/object_tracking/share/object_tracking/hook/pythonpath_develop.sh

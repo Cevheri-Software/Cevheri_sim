@@ -10,3 +10,6 @@ source;share/uav_simulation/hook/pythonscriptspath.sh
 source;share/uav_simulation/hook/ament_prefix_path.ps1
 source;share/uav_simulation/hook/ament_prefix_path.dsv
 source;share/uav_simulation/hook/ament_prefix_path.sh
+source;../../build/uav_simulation/share/uav_simulation/hook/pythonpath_develop.ps1
+source;../../build/uav_simulation/share/uav_simulation/hook/pythonpath_develop.dsv
+source;../../build/uav_simulation/share/uav_simulation/hook/pythonpath_develop.sh

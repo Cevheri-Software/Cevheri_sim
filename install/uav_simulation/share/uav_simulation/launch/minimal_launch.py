@@ -1,0 +1,1 @@
+/home/ibz/uav_ws/build/uav_simulation/launch/minimal_launch.py

@@ -1,0 +1,7 @@
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microxrcedds_client.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/edit_cache.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/rebuild_cache.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/list_install_components.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install/local.dir
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install/strip.dir

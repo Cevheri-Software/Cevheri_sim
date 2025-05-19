@@ -1,0 +1,13 @@
+# Target labels
+ uclient
+# Source files and their labels
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient-complete.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-build.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-configure.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-download.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-install.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-mkdir.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-patch.rule
+/home/ibz/uav_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-update.rule

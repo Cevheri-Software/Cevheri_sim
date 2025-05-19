@@ -114,5 +114,6 @@ colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/uav_si
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/uav_simulation/hook/pythonpath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/uav_simulation/hook/pythonscriptspath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/uav_simulation/hook/ament_prefix_path.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\../../build/uav_simulation/share/uav_simulation/hook/pythonpath_develop.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX

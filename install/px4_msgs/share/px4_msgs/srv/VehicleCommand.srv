@@ -1,3 +1,1 @@
-VehicleCommand request
----
-VehicleCommandAck reply
+/home/ibz/uav_ws/src/px4_msgs/srv/VehicleCommand.srv

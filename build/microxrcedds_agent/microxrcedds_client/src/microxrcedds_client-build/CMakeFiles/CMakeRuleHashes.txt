@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+193d29878985014751fa1758ec93566e uclient-prefix/src/uclient-stamp/uclient-download
+ce37227d4edc123ef3ab27e63c781b1c uclient-prefix/src/uclient-stamp/uclient-mkdir
+9d23c047b511215bd5fcf4c39ad0656b uclient-prefix/src/uclient-stamp/uclient-patch
+4ac165e47df8b097e343413374facedc uclient-prefix/src/uclient-stamp/uclient-update

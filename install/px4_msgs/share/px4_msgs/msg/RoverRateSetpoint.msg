@@ -1,5 +1,1 @@
-uint64 timestamp # time since system start (microseconds)
-
-float32 yaw_rate_setpoint # [rad/s] Expressed in NED frame
-
-# TOPICS rover_rate_setpoint
+/home/ibz/uav_ws/src/px4_msgs/msg/RoverRateSetpoint.msg
